@@ -1,0 +1,37 @@
+name: Feature Request
+description: Suggest a new feature or improvement for abi-python-utilities.
+title: "[FEATURE]: "
+labels: [enhancement]
+
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for suggesting an improvement!"
+
+  - type: input
+    id: context
+    attributes:
+      label: Context
+      description: What problem are you trying to solve or what use case does this feature support?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed Solution
+      description: What would the new functionality look like? Describe any new packages or changes to existing ones.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: What alternatives have you considered or tried?
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Add any other context or screenshots about the feature request here.
